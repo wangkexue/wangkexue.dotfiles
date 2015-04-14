@@ -1,6 +1,6 @@
 ; Configure before loading org mode                                              
 (package-initialize)
-
+; add line number
 (require 'linum)
 (global-linum-mode t)
 
