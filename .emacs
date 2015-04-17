@@ -34,7 +34,7 @@
 (require 'mmm-mode)
 (load-library '"mmm-auto")
 ;(setq mmm-submode-decoration-level 2)
-(set-face-background 'mmm-default-submode-face "IndianRed")
+(set-face-background 'mmm-default-submode-face "brightwhite")
 
 (setq mmm-global-mode 'maybe)
 (add-to-list 'auto-mode-alist '("\\.mas\\'" . html-mode))
