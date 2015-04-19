@@ -8,6 +8,9 @@
 ;(require 'linum)
 ;(global-linum-mode t)
 
+(show-paren-mode t)
+(setq show-paren-delay 0)
+
 (setq exec-path (append exec-path '("/usr/texbin")))
 
 (org-babel-do-load-languages
