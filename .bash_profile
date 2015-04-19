@@ -1,7 +1,7 @@
 # on Macbook Pro running Mac OS 10.10
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # use Emacs 24 instead of Xcode command line tool's emacs 22.1
-alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw -Q'
+alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw'
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
