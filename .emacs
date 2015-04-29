@@ -7,6 +7,7 @@
 ;; add line number
 ;(require 'linum)
 ;(global-linum-mode t)
+(setq linum-format "%4d \u2502 ")
 
 (show-paren-mode t)
 (setq show-paren-delay 0)
